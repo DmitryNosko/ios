@@ -4,7 +4,7 @@
 
 // Complete the summArray function below.
 - (NSNumber *)summArray:(NSArray *)array {
-    return @(0);
+    return [array valueForKeyPath:@"@sum.self"];
 }
 
 @end
