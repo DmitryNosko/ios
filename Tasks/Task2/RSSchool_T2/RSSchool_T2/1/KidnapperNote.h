@@ -15,4 +15,5 @@
  @return flag indicating if a magazine can be used for a ransom note, YES or NO
  */
 - (BOOL)checkMagazine:(NSString *)magaine note:(NSString *)note;
+
 @end
