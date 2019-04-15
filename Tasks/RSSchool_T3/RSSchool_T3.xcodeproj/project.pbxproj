@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E08F6E5122652379008D0380 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = E08F6E5022652379008D0380 /* Node.m */; };
+		E08F6E552265244F008D0380 /* ChangeYearCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E08F6E542265244F008D0380 /* ChangeYearCommand.m */; };
+		E08F6E582265245E008D0380 /* ChangeDayCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E08F6E572265245E008D0380 /* ChangeDayCommand.m */; };
+		E08F6E5B2265246D008D0380 /* ChangeHourCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E08F6E5A2265246D008D0380 /* ChangeHourCommand.m */; };
+		E08F6E5E2265247C008D0380 /* ChangeMinuteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E08F6E5D2265247C008D0380 /* ChangeMinuteCommand.m */; };
+		E08F6E612265248E008D0380 /* ChangeMonthCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E08F6E602265248E008D0380 /* ChangeMonthCommand.m */; };
+		E08F6E64226524A0008D0380 /* ChangeWeekCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E08F6E63226524A0008D0380 /* ChangeWeekCommand.m */; };
+		E08F6E67226524B2008D0380 /* CommandMeneger.m in Sources */ = {isa = PBXBuildFile; fileRef = E08F6E66226524B2008D0380 /* CommandMeneger.m */; };
 		E3821557225B533B00E3B12B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3821556225B533B00E3B12B /* AppDelegate.m */; };
 		E382155F225B533E00E3B12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E382155E225B533E00E3B12B /* Assets.xcassets */; };
 		E3821562225B533E00E3B12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3821560225B533E00E3B12B /* LaunchScreen.storyboard */; };
@@ -38,6 +46,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E08F6E4F22652379008D0380 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		E08F6E5022652379008D0380 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		E08F6E522265243C008D0380 /* ChangeDateCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeDateCommand.h; sourceTree = "<group>"; };
+		E08F6E532265244F008D0380 /* ChangeYearCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeYearCommand.h; sourceTree = "<group>"; };
+		E08F6E542265244F008D0380 /* ChangeYearCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeYearCommand.m; sourceTree = "<group>"; };
+		E08F6E562265245E008D0380 /* ChangeDayCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeDayCommand.h; sourceTree = "<group>"; };
+		E08F6E572265245E008D0380 /* ChangeDayCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeDayCommand.m; sourceTree = "<group>"; };
+		E08F6E592265246D008D0380 /* ChangeHourCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeHourCommand.h; sourceTree = "<group>"; };
+		E08F6E5A2265246D008D0380 /* ChangeHourCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeHourCommand.m; sourceTree = "<group>"; };
+		E08F6E5C2265247C008D0380 /* ChangeMinuteCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeMinuteCommand.h; sourceTree = "<group>"; };
+		E08F6E5D2265247C008D0380 /* ChangeMinuteCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeMinuteCommand.m; sourceTree = "<group>"; };
+		E08F6E5F2265248E008D0380 /* ChangeMonthCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeMonthCommand.h; sourceTree = "<group>"; };
+		E08F6E602265248E008D0380 /* ChangeMonthCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeMonthCommand.m; sourceTree = "<group>"; };
+		E08F6E62226524A0008D0380 /* ChangeWeekCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeWeekCommand.h; sourceTree = "<group>"; };
+		E08F6E63226524A0008D0380 /* ChangeWeekCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeWeekCommand.m; sourceTree = "<group>"; };
+		E08F6E65226524B2008D0380 /* CommandMeneger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandMeneger.h; sourceTree = "<group>"; };
+		E08F6E66226524B2008D0380 /* CommandMeneger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandMeneger.m; sourceTree = "<group>"; };
 		E3821552225B533B00E3B12B /* RSSchool_T3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3821555225B533B00E3B12B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3821556225B533B00E3B12B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -147,6 +172,8 @@
 				E39C2562225B683500C3BCC1 /* FullBinaryTrees.h */,
 				E39C2563225B683500C3BCC1 /* FullBinaryTrees.m */,
 				E39C2566225B877F00C3BCC1 /* ExampleTrees.png */,
+				E08F6E4F22652379008D0380 /* Node.h */,
+				E08F6E5022652379008D0380 /* Node.m */,
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -165,6 +192,21 @@
 			children = (
 				E39C2575225CAA7E00C3BCC1 /* DateMachine.h */,
 				E39C2576225CAA7E00C3BCC1 /* DateMachine.m */,
+				E08F6E522265243C008D0380 /* ChangeDateCommand.h */,
+				E08F6E532265244F008D0380 /* ChangeYearCommand.h */,
+				E08F6E542265244F008D0380 /* ChangeYearCommand.m */,
+				E08F6E562265245E008D0380 /* ChangeDayCommand.h */,
+				E08F6E572265245E008D0380 /* ChangeDayCommand.m */,
+				E08F6E592265246D008D0380 /* ChangeHourCommand.h */,
+				E08F6E5A2265246D008D0380 /* ChangeHourCommand.m */,
+				E08F6E5C2265247C008D0380 /* ChangeMinuteCommand.h */,
+				E08F6E5D2265247C008D0380 /* ChangeMinuteCommand.m */,
+				E08F6E5F2265248E008D0380 /* ChangeMonthCommand.h */,
+				E08F6E602265248E008D0380 /* ChangeMonthCommand.m */,
+				E08F6E62226524A0008D0380 /* ChangeWeekCommand.h */,
+				E08F6E63226524A0008D0380 /* ChangeWeekCommand.m */,
+				E08F6E65226524B2008D0380 /* CommandMeneger.h */,
+				E08F6E66226524B2008D0380 /* CommandMeneger.m */,
 			);
 			path = 3;
 			sourceTree = "<group>";
@@ -299,11 +341,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08F6E582265245E008D0380 /* ChangeDayCommand.m in Sources */,
 				E39C256C225B898A00C3BCC1 /* ArrayPrint.m in Sources */,
+				E08F6E67226524B2008D0380 /* CommandMeneger.m in Sources */,
 				E3821565225B533E00E3B12B /* main.m in Sources */,
+				E08F6E64226524A0008D0380 /* ChangeWeekCommand.m in Sources */,
+				E08F6E612265248E008D0380 /* ChangeMonthCommand.m in Sources */,
 				E39C2577225CAA7E00C3BCC1 /* DateMachine.m in Sources */,
 				E3821557225B533B00E3B12B /* AppDelegate.m in Sources */,
+				E08F6E552265244F008D0380 /* ChangeYearCommand.m in Sources */,
 				E39C2564225B683500C3BCC1 /* FullBinaryTrees.m in Sources */,
+				E08F6E5E2265247C008D0380 /* ChangeMinuteCommand.m in Sources */,
+				E08F6E5122652379008D0380 /* Node.m in Sources */,
+				E08F6E5B2265246D008D0380 /* ChangeHourCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,8 +518,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 42K4QGQ7K4;
+				DEVELOPMENT_TEAM = 4RQTQJYX68;
 				INFOPLIST_FILE = RSSchool_T3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,8 +536,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 42K4QGQ7K4;
+				DEVELOPMENT_TEAM = 4RQTQJYX68;
 				INFOPLIST_FILE = RSSchool_T3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,6 +555,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RSSchool_T3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,6 +574,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RSSchool_T3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -538,6 +592,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RSSchool_T3UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -555,6 +610,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RSSchool_T3UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
