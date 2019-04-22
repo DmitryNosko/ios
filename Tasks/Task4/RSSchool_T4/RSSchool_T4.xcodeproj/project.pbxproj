@@ -12,6 +12,10 @@
 		BD47B5582268EDA10060BDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */; };
 		BD47B55B2268EDA10060BDF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47B55A2268EDA10060BDF3 /* main.m */; };
 		BD47B5622268F8120060BDF3 /* PhoneNumber.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5612268F8120060BDF3 /* PhoneNumber.pdf */; };
+		E09C6F4C226DE6D10075D4B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09C6F4B226DE6D10075D4B5 /* ViewController.m */; };
+		E09C6F4F226DE7F40075D4B5 /* PhoneNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = E09C6F4E226DE7F40075D4B5 /* PhoneNumberFormat.m */; };
+		E09C6F52226DE83F0075D4B5 /* PhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E09C6F51226DE83F0075D4B5 /* PhoneNumberFormatter.m */; };
+		E09C6F58226DE8C20075D4B5 /* PhoneNumberRules.m in Sources */ = {isa = PBXBuildFile; fileRef = E09C6F57226DE8C20075D4B5 /* PhoneNumberRules.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,14 @@
 		BD47B5592268EDA10060BDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD47B55A2268EDA10060BDF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD47B5612268F8120060BDF3 /* PhoneNumber.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PhoneNumber.pdf; sourceTree = "<group>"; };
+		E09C6F4A226DE6D10075D4B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E09C6F4B226DE6D10075D4B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E09C6F4D226DE7F40075D4B5 /* PhoneNumberFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumberFormat.h; sourceTree = "<group>"; };
+		E09C6F4E226DE7F40075D4B5 /* PhoneNumberFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberFormat.m; sourceTree = "<group>"; };
+		E09C6F50226DE83F0075D4B5 /* PhoneNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumberFormatter.h; sourceTree = "<group>"; };
+		E09C6F51226DE83F0075D4B5 /* PhoneNumberFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberFormatter.m; sourceTree = "<group>"; };
+		E09C6F56226DE8C20075D4B5 /* PhoneNumberRules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumberRules.h; sourceTree = "<group>"; };
+		E09C6F57226DE8C20075D4B5 /* PhoneNumberRules.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberRules.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 				BD47B5612268F8120060BDF3 /* PhoneNumber.pdf */,
 				BD47B5512268ED9F0060BDF3 /* AppDelegate.h */,
 				BD47B5522268ED9F0060BDF3 /* AppDelegate.m */,
+				E09C6F4A226DE6D10075D4B5 /* ViewController.h */,
+				E09C6F4B226DE6D10075D4B5 /* ViewController.m */,
+				E09C6F4D226DE7F40075D4B5 /* PhoneNumberFormat.h */,
+				E09C6F4E226DE7F40075D4B5 /* PhoneNumberFormat.m */,
+				E09C6F50226DE83F0075D4B5 /* PhoneNumberFormatter.h */,
+				E09C6F51226DE83F0075D4B5 /* PhoneNumberFormatter.m */,
+				E09C6F56226DE8C20075D4B5 /* PhoneNumberRules.h */,
+				E09C6F57226DE8C20075D4B5 /* PhoneNumberRules.m */,
 				BD47B5542268EDA10060BDF3 /* Assets.xcassets */,
 				BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */,
 				BD47B5592268EDA10060BDF3 /* Info.plist */,
@@ -136,7 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09C6F4C226DE6D10075D4B5 /* ViewController.m in Sources */,
+				E09C6F52226DE83F0075D4B5 /* PhoneNumberFormatter.m in Sources */,
 				BD47B55B2268EDA10060BDF3 /* main.m in Sources */,
+				E09C6F58226DE8C20075D4B5 /* PhoneNumberRules.m in Sources */,
+				E09C6F4F226DE7F40075D4B5 /* PhoneNumberFormat.m in Sources */,
 				BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
